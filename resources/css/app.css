@@ -1,0 +1,42 @@
+.nav-link.active {
+    background-color: #4185f4; /* Màu xanh cho nút Trang chủ */
+    color: white !important;
+    border-radius: 0.5rem;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+  }
+  .navbar {
+    border-bottom: 2px solid #fff;
+  }
+  .profile-btn {
+    background-color: #ddd;
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  hr {
+    border-top: 0px solid #fff;
+  }
+
+  body {
+    background-color: #1b2a41;
+    color: white;
+}
+.section {
+    padding: 50px 0;
+}
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.profile-img {
+    border-radius: 50%;
+}
