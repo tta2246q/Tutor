@@ -1,0 +1,422 @@
+
+.body-head{
+    
+    color: white;
+}
+.btn-secondary{
+    background-color:rgb(31, 30, 54) !important ;
+}
+.nav-link.active {
+    background-color: #4185f4;
+    color: white !important;
+    border-radius: 0.5rem;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+  }
+  .profile-btn {
+    background-color: #ddd;
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  /* css footer */
+  footer {
+    background-color: #2e2e38;
+    color: white;
+    padding: 30px 0;
+}
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-section {
+    text-align: left;
+}
+.footer-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.footer-icons a {
+    margin: 0 10px;
+    color: white;
+}
+.footer-icons img {
+    max-width: 60px;
+    margin: 0 10px;
+}
+.footer-icons a:hover {
+    color: #007bff;
+}
+
+.section {
+  padding: 50px 0;
+}
+.btn-primary {
+  background-color: #3498db;
+  border: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.profile-img {
+  border-radius: 5%;
+  width: 210px;
+  height: 210px;
+}
+.col-md-3{
+  background-color: none;
+
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+} 
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #0069d9;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* css home */
+.btn.btn-primary.home{
+  font-size: 30px;
+  border-radius: 10px;
+}
+.text-home{
+  font-size: 20px;
+}
+
+/* css page we */
+
+.img-we{
+  width: 1000px;
+}
+
+
+/* css parents */
+.images-search-tutor{
+  width: 100%;
+  height: 600px;
+}
+.img-search_tutor{
+  width: 100%;
+  height: 400px;
+}
+
+.conten_search{
+  font-size: 25px;
+}
+
+.filter-container {
+  padding: 20px;
+
+  border-radius: 10px;
+}
+.btn-custom {
+  background-color: #ff6700;
+  color: white;
+}
+.form-select{
+  border-radius: 5px !important;
+  height: 50px !important;
+  font-size: 1.2rem !important;
+  width: 100%;
+  margin-left: 20px;
+}
+.bg_form{
+   
+  color: #000000;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.form-control, .form-select {
+  background-color: #e0e0e0;
+  border: none;
+  height: 45px;
+}
+.form-control:focus, .form-select:focus {
+  outline: none;
+  box-shadow: none;
+}
+.submit-btn {
+  background-color: #ff671f;
+  color: #fff;
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.submit-btn:hover {
+  background-color: #ff571f;
+}
+
+/* css tutor Information */
+
+.info-container {
+  max-width: 600px;
+  margin: 30px auto;
+  text-align: left;
+}
+.info-container img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.info-details {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.info-details p {
+  margin: 5px 0;
+}
+.Hire_a_Tutor_Now {
+  background-color: #ff671f;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+}
+.Hire_a_Tutor_Now:hover {
+  background-color: #ff571f;
+}
+.more-tutors-container {
+  margin: 50px 0;
+}
+.more-tutors {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.tutor-card {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+  text-align: left;
+}
+.tutor-card img {
+  width: 100%;
+  height: 150px;
+  background-color: #ff9999;
+  margin-bottom: 10px;
+}
+.tutor-card p {
+  margin: 5px 0;
+}
+.tutor-card .btn {
+  background-color: #ff671f;
+  color: #fff;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+}
+.tutor-card .btn:hover {
+  background-color: #ff571f;
+}
+.footer-text {
+  color: #ff671f;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* css document */
+.document-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+.document-card {
+  width: 250px;
+  margin: 10px;
+  display: none; 
+}
+.filter-section {
+  margin-bottom: 20px;
+}
+.document-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pagination {
+  justify-content: center;
+}
+.filter-section .me-2 {
+  margin-right: 60px !important;
+}
+#filter-grade {
+  margin-left: 50px;
+}
+/* css detail_document */
+
+.download-btn {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Thiết kế khung bình luận */
+.comment-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 9900px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.comment-box h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.comment-box textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+  background-color: #eee; /* Màu xám như trong hình */
+}
+
+.comment-box button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-box button:hover {
+  background-color: #0056b3;
+}
+
+.main-content {
+  padding: 40px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Phần nội dung tài liệu */
+.document {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  width: 70%;
+  line-height: 1.6;
+}
+
+.document h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.document .author {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* Phần danh sách tài liệu khác */
+.sidebar {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 25%;
+}
+
+.sidebar h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  display: block;
+  color: #007bff;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* css tutor classes */
+
+.form_classes{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form-group textarea {
+  height: 100px;
+}

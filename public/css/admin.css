@@ -1,0 +1,226 @@
+/* css header */
+
+.body_header{
+  background-color: #2b2c40;
+  color: white;
+  width: 100%;
+  height: 110px;
+ }
+
+ .search{
+ position: relative;
+ box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+ }
+
+ .search input{
+  height: 60px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+  border-radius: 10px;
+ }
+
+ .search input:focus{
+
+  box-shadow: none;
+  border: 2px solid blue;
+
+ }
+
+ .search .fa-search{
+  position: absolute;
+  top: 20px;
+  left: 16px;
+ }
+
+ .search button{
+
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: blue;
+
+ }
+
+ /* css main */
+
+
+ .body {
+  background-color: #1e1e2d;
+  color: white;
+}
+.sidebar {
+  height: 100vh;
+  background-color: #282a3a;
+}
+.card {
+  background-color: #2b2c40 !important;
+  border: none;
+}
+.card-title {
+  color: #ffffff;
+}
+.dropdown-menu {
+  background-color: #282a3a;
+}
+.chart-card {
+  background-color: #2b2c40;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.active-link {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+/* css Tutor Manager */
+
+.table-responsive {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #34495e;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #2c3e50;
+}
+
+th {
+  background-color: #3c4e61;
+}
+
+
+
+td {
+  border: none;
+}
+
+.stars {
+  color: gold;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+/* css  details */
+
+.images_personal_profile {
+height: 200px;
+width: 200px;
+}
+
+.btn-secondary.go_back{
+background-color: transparent;
+}
+
+/* css manage payment */
+
+.done {
+color: green;
+font-weight: bold;
+}
+.not-done {
+color: red;
+font-weight: bold;
+}
+
+/* css inbox */
+
+.chat-box {
+  background-color: #2a3a4e;
+  padding: 1rem;
+  border-radius: 10px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  height: 200px;
+  overflow-y: auto;
+  background-color: #1e2a38;
+  padding: 10px;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.message {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.message.sent {
+  justify-content: flex-end;
+}
+
+.message .content {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+.message.sent .content {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.message.received .content {
+  background-color: #e9ecef;
+  color: black;
+}
+
+.input-group {
+  margin-top: 10px;
+}
+
+/* css personal Information */
+
+.form-label {
+  color: #ccc;
+}
+
+.form-control, .form-select {
+  background-color: #2C2F48;
+  color: white;
+  border: 1px solid #444;
+}
+
+.form-control:focus, .form-select:focus {
+  background-color: #2C2F48;
+  border-color: #FFC107;
+}
+
+.card {
+  border: none;
+}
+
+button {
+  background-color: #FFC107;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e0a800;
+}
+
+.rounded-circle{
+  width: 80px; 
+  height: 80px;
+}
